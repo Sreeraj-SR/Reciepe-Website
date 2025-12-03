@@ -1,0 +1,47 @@
+.itemContainer {
+  margin: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  outline: 1px solid rgb(250, 16, 16);
+  box-shadow: 0 4px 10px 0gb (0, 19, 19, 0.5);
+}
+.name {
+  margin-bottom: 10px;
+
+  white-space: wrap;
+  width: 200px;
+  align-self: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+.rimg {
+  padding: 10px;
+  border-radius: 30px;
+  max-width: 100%;
+  height: auto;
+}
+.btnContainer {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  border: none;
+  background-color: rgb(233, 19, 19);
+  height: 30px;
+  width: 100px;
+  align-self: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.bottomContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}

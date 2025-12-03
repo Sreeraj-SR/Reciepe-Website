@@ -1,0 +1,16 @@
+Video 47. 
+    1.Create React App using Vite 4.1.0. 
+    2.run react app(npm install and the npm run dev)
+    3.Delete Unnecessary files in src folder(index.css, app.css and assets folder).
+
+Video 48.
+    1. Create Component folder.
+    2. Create a Seacrch Component.
+    3. Add Search component to App.jsx.
+    4. Add an input field to the Search Component.
+    5. import useState from react
+    6. set query and setQuery using UseState.
+    7. Pass Query as value parameter to the input field.
+    8. Add onChange function to access the value of the input field setQuery as (e.target.value).
+    9. Set a default value for the input field.
+    10.Add useEffect and pass query as dependency
