@@ -4,7 +4,7 @@ import styles from "./search.module.css"
 export default function Search({ foodData, setFoodData }) {
   const [query, setQuery] = useState("pizza")
   const URL = "https://api.spoonacular.com/recipes/complexSearch"
-  const API_KEY = "2c2e80b7b8954ad7a9942b31475fd8e6"
+  const API_KEY = import.meta.env.VITE_API_KEY
   useEffect(() => {
     const fetchRecipe = async () => {
       const respone = await fetch(`${URL}?query=${query}&apiKey=${API_KEY}`)

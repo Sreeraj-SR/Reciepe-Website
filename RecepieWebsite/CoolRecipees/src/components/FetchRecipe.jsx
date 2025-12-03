@@ -3,7 +3,7 @@ import styles from "./fetchRecipe.module.css"
 
 export default function FetchRecipe({ recipeId }) {
   const [recipe, setRecipe] = useState(null)
-  const API_KEY = ""
+  const API_KEY = import.meta.env.VITE_API_KEY
 
   useEffect(() => {
     if (recipeId) {
